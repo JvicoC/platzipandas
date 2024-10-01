@@ -3,7 +3,7 @@ import pandas as pd
 path='online_retail.csv'
 df=pd.read_csv(path)
 #print(type(rd))
-print("1:*************************\n",df.head(10))#muestra las primeras 5 filas o las filas que le indiquemos
+#print("1:*************************\n",df.head(10))#muestra las primeras 5 filas o las filas que le indiquemos
 
 df2 = pd.DataFrame({
     'key': ['a', 'b', 'c'],
